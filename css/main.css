@@ -229,12 +229,26 @@ footer {
 }
 
 /* Content Client*/
-/* Specifications */
 .info-tittle {
 	font-family: 'Roboto Mono', monospace;
 	font-weight: 400;
 	font-size: 24px;
-	color: ##202124;
+	color: #202124;
+}
+.info-text {
+	font-weight: 400;
+	font-size: 16px;
+	color: #5F6368;
+}.client-info-page {
+	width: 100%;
+	border-bottom: 1px dashed #BDBDBD;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 40px 0px;
+}
+.info {
+	width: 750px;
 }
 .info-client-tittle {
 	width: 100%;
@@ -243,21 +257,30 @@ footer {
 	justify-content: flex-start;
 	align-items: center;
 }
-.client-info-1 {
+.wrap-q	{
 	width: 100%;
-	border-bottom: 1px solid #BDBDBD;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding: 40px 0px;
 }
-.info-1 {
+.q {
+	width: 750px;
+}
+.wrap-btn-client {
+	margin: auto;
 	width: 750px;
 	height: 200px;
+	background-color: #000;
 }
-.info-client-text{
+.text-q {
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #202124;
+	text-align: center;
+}
 
-}
 
 
 
