@@ -201,11 +201,63 @@ footer {
 /* Header */
 .wrap-header-client{
 	width: 100%;
-	height: 350px;
+	height: 300px;
 	background-color: #333333;
+	background-image: url(../img/Group\ 2.1.png);
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header-client-content {
+	width: 750px;
+	height: 200px;
+	margin: 0 auto;
+
+}
+.page-tittle {
+	font-size: 48px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #fff;
+}
+.page-text {
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #fff;
 }
 
+/* Content Client*/
+/* Specifications */
+.info-tittle {
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 400;
+	font-size: 24px;
+	color: ##202124;
+}
+.info-client-tittle {
+	width: 100%;
+	height: 48px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.client-info-1 {
+	width: 100%;
+	border-bottom: 1px solid #BDBDBD;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 40px 0px;
+}
+.info-1 {
+	width: 750px;
+	height: 200px;
+}
+.info-client-text{
 
+}
 
 
 
