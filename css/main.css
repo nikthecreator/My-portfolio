@@ -102,7 +102,8 @@ li {
 
 footer {
 	height: 100px;
-	background-color: #fff;
+	background-color: #eeeeee;
+	margin-top: 100px;
 }
 .footer-items {
 	margin: 0 auto;
@@ -177,13 +178,12 @@ footer {
 	height: 46px;	
 }
 .wrapp-button {
-	width: 700px;
-	height: 100px;
 	margin: auto;
 	margin-top: 60px;
+	width: 750px;
+	height: 50px;
 	display: flex;
 	justify-content: center;
-	align-items: center;
 }
 .contact-btn {
 	width: 350px;
@@ -267,11 +267,12 @@ footer {
 .q {
 	width: 750px;	
 }
-.wrap-btn-client {
+.wrap-button-client {
 	margin: auto;
 	width: 750px;
-	height: 200px;
-	background-color: #000;
+	height: 50px;
+	display: flex;
+	justify-content: center;
 }
 .text-q {
 	font-size: 24px;
